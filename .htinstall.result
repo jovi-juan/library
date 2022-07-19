@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Omeka</title>
+<link href="/install/screen.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/install/skeleton.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/install/media/767max.css" media="only screen and (max-width: 767px)" rel="stylesheet" type="text/css">
+<link href="/install/media/479max.css" media="only screen and (max-width: 479px)" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Cabin:400,700,400italic,700italic" media="screen" rel="stylesheet" type="text/css"></head>
+<body>
+<div class="container container-sixteen">
+<div id="content" class="eight columns offset-by-four">
+<header>
+<h1>Omeka</h1>
+</header>
+<h2>Success!</h2>
+<p class="installed">Omeka is installed.</p>
+<p><a href="https://library.philippinestudies.uk/install/../" class="blue button">Public Site</a> <a href="https://library.philippinestudies.uk/install/../admin/" class="button">Admin Dashboard</a></p>
+</div>
+</div>
+</body>
+</html>

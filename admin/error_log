@@ -1,0 +1,116 @@
+[01-Jun-2021 11:27:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[01-Jun-2021 11:29:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[01-Jun-2021 11:32:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[01-Jun-2021 11:33:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[01-Jun-2021 11:39:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[12-Jun-2021 11:10:54 UTC] PHP Warning:  array_reverse() expects parameter 1 to be array, string given in /home/philippi/library.philippinestudies.uk/application/controllers/AppearanceController.php on line 94
+[13-Jun-2021 15:30:07 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[14-Jun-2021 03:03:32 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[01-Jul-2021 12:54:38 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[01-Jul-2021 13:16:18 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[01-Jul-2021 13:16:24 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[01-Jul-2021 16:06:40 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[01-Jul-2021 16:06:43 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[01-Jul-2021 16:15:30 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 03:21:25 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 04:02:35 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 04:02:38 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 04:06:25 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 05:15:45 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 10:15:30 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 10:15:35 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 14:06:28 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 14:29:37 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 14:33:30 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 14:37:14 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 14:37:16 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 14:45:55 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 14:46:00 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[02-Jul-2021 14:49:52 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[04-Jul-2021 09:17:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:24:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:27:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:28:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:30:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:33:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:34:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:34:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:39:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 09:45:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 10:39:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 11:35:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[04-Jul-2021 11:55:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/philippi/library.philippinestudies.uk/application/libraries/Omeka/File/MimeType/Detect/Strategy/Browser.php on line 22
+[08-Jul-2021 14:25:15 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[08-Jul-2021 14:25:17 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[10-Jul-2021 14:19:15 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[10-Jul-2021 15:45:33 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[10-Jul-2021 16:18:02 UTC] PHP Warning:  Required attribute 'src' in element 'img' was not allowed, which means 'img' will not be allowed either in /home/philippi/library.philippinestudies.uk/application/libraries/htmlpurifier/HTMLPurifier/HTMLDefinition.php on line 355
+[10-Jul-2021 16:42:01 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[11-Jul-2021 08:06:50 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[11-Jul-2021 08:06:53 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[11-Jul-2021 08:06:57 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
+[12-Jul-2021 14:25:46 UTC] Omeka fatal error: No such file or directory.
+
+Confirm that the information in your db.ini file is correct.
