@@ -15,12 +15,64 @@ else{
 		.map {
 			display:none;
 		}
+		iframe {
+		  width: 100%;
+		  height: 100%;
+		  pointer-events: none;
+		  margin-left:-0.25%;
+		  margin-top:-1.25%;
+		}
+		.video-container{
+			width:100%;
+			height:100%;
+			overflow: hidden;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			
+		}
+		.big-image-holder-j{
+			overflow: hidden;
+			text-align:center;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		@media all and (max-width:600px){
+			.video-container{
+				pointer-events: auto;
+			}
+			iframe{
+				pointer-events: auto;
+			}
+		}
+		/* height = 100 * (9 / 16) = 56.25 */
+		/* width = 100 / (9 / 16) = 177.777777 */
+		/* 
+@media (min-aspect-ratio: 16/9) {
+		  .video-container iframe {
+			
+			height: 56.25vw;
+		  }
+		}
+	
+		@media (max-aspect-ratio: 16/9) {
+		  .video-container iframe {
+			
+			width: 177.78vh;
+		  }
+		}
+ */
 	</style>
 
 	<div id="content" role="main">
 	<section class="big-image-holder-j">
-		<img src="/images/front-image.jpg" class="big-image-j"></img>
-		<div class="caption on-photo-right">Library of San Pablo (San Agustin) Convent. Photo from 1880.</div>
+		<div class="video-container">
+		<!--<img src="/images/front-image.jpg" class="big-image-j"></img>
+		<div class="caption on-photo-right">Library of San Pablo (San Agustin) Convent. Photo from 1880.</div>-->
+			<iframe src="https://www.youtube.com/embed/AiqElwh51Is?controls=0&autoplay=1&mute=1&playlist=AiqElwh51Is&loop=1">
+ </iframe>
+ 		</div>
 	</section>
 	<section class="map">
 		<!--
@@ -96,8 +148,8 @@ will include spaces for transcribing, translating and annotating the materials.<
 		<section id="cta-transcribe-j"><h3 class="result-type-header">Help us transcribe</h3>
 			
 				<div class="item-j">
-					<a href="/items/show/214"><img src="/files/thumbnails/b5acb157ef039a4005ec9493369efa27.jpg" class="item-j-img"></a>
-					<p>Transcription is an important component of the project. <strong>Contribute to our crowd-sourced effort!</strong><br /><a class="button button-primary" href="#">Help transcribe</a></p>
+					<a href="/contribute/"><img src="/files/thumbnails/b5acb157ef039a4005ec9493369efa27.jpg" class="item-j-img"></a>
+					<p>Transcription is an important component of the project. <strong>Contribute to our crowd-sourced effort!</strong><br /><a class="button button-primary" href="/contribute/">Help transcribe</a></p>
 				</div>
 			</a>
 	
@@ -113,6 +165,20 @@ will include spaces for transcribing, translating and annotating the materials.<
 //end stealth mode else statement
 }?>
 
-
+<script type="text/javascript">
+	function resizeVid(){
+		let theVidWidth=parseInt($(".big-image-holder-j").width());
+		let theVidHeight=parseInt(theVidWidth*.5625);
+		$(".big-image-holder-j").height(theVidHeight);
+		$("iframe").width(theVidWidth);
+		$("iframe").height(theVidHeight);
+		// $("iframe").css("margin-left","-0.25%");
+// 		$("iframe").css("margin-top","-1.5%");
+		$(".video-container").width(theVidWidth);
+		$(".video-container").height(theVidHeight);
+	}
+	resizeVid();
+	window.onresize = resizeVid;
+</script>
 
 <?php echo foot(); ?>

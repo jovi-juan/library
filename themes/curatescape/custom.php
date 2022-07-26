@@ -140,9 +140,13 @@ function mh_global_nav($nested=false){
 	if( $curatenav==1 || !isset($curatenav) ){
 		return nav(array(
 				array('label'=>__('Home'),'uri' => url('/')),
-				array('label'=>mh_item_label('plural'),'uri' => url('items/browse')),
-				array('label'=>mh_tour_label('plural'),'uri' => url('tours/browse/')),
-				array('label'=>__('About'),'uri' => url('about/')),
+				array('label'=>__('Team'),'uri' => url('/team/')),
+				array('label'=>__('News'),'uri' => url('/news/')),
+				array('label'=>__('Contribute'),'uri' => url('/contribute/')),
+				array('label'=>__('Contact'),'uri' => url('/contact/')),
+// 				array('label'=>mh_item_label('plural'),'uri' => url('items/browse')),
+// 				array('label'=>mh_tour_label('plural'),'uri' => url('tours/browse/')),
+// 				array('label'=>__('About'),'uri' => url('about/')),
 			));
 	}elseif($nested){
 		return public_nav_main()->setMaxDepth(1);
@@ -226,7 +230,8 @@ function mh_global_header($html=null){
 	<nav aria-label="<?php echo __('Main Navigation');?>">
 		<?php echo link_to_home_page(mh_the_logo(),array('id'=>'home-logo'));?>
 		<div class="spacer"></div>
-		<div class="flex flex-end flex-grow flex-nav-container <?php echo get_theme_option('stacked_nav')==1 ? 'stacked' : null;?> ">
+		<!-- 
+<div class="flex flex-end flex-grow flex-nav-container <?php echo get_theme_option('stacked_nav')==1 ? 'stacked' : null;?> ">
 			<?php if(!get_theme_option('hide_primary_nav')):?>
 			<div class="flex priority">
 	  			<a href="<?php echo url('/items/browse/');?>" class="button button-primary"><?php echo mh_item_label('plural');?></a>
@@ -236,10 +241,45 @@ function mh_global_header($html=null){
 			</div>
 			<?php endif;?>
 			<div class="flex search-plus flex-grow">
-  			<!--input class="nav-search u-full-width" type="search" placeholder="Search"-->
+  			<!~~input class="nav-search u-full-width" type="search" placeholder="Search"~~>
   			<?php echo mh_simple_search('header-search',array('id'=>'header-search-form'),__('Search - Top'));?>
   			<a title="Menu" id="menu-button" href="#offscreen-menu" class="button icon"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a>	
 			</div>
+		</div>
+ -->
+ 		<div class="flex flex-end flex-grow flex-nav-container <?php echo get_theme_option('stacked_nav')==1 ? 'stacked' : null;?> ">
+			<div class="flex search-plus flex-grow" style="margin-bottom:0.3em">
+  			<!--input class="nav-search u-full-width" type="search" placeholder="Search"-->
+  			<?php echo mh_simple_search('header-search',array('id'=>'header-search-form'),__('Search - Top'));?>
+  			<a title="Menu" id="menu-button" href="#offscreen-menu" class="button icon"><i class="fa fa-bars fa-lg full-menu" aria-hidden="true"></i><i class="fa fa-bars fa-xs mobile-menu" aria-hidden="true"></i></a>	
+			</div>
+			<?php if(!get_theme_option('hide_primary_nav')):?>
+			<div class="flex priority">
+				<!-- 
+<a href="<?php echo url('/about/');?>" class="button button-primary">About</a>
+	  			<a href="<?php echo url('/items/browse/');?>" class="button button-primary"><?php echo mh_item_label('plural');?></a>
+	  			<?php if(plugin_is_active('TourBuilder')): ?>
+	  				<!~~ <a href="<?php echo url('/tours/browse/');?>" class="button button-primary"><?php echo mh_tour_label('plural');?></a> ~~>
+	  				<a href="<?php echo url('/tours/browse/');?>" class="button button-primary"><?php echo mh_tour_label('plural');?></a>
+	  			<?php endif;?>
+	  			<!~~ <a href="<?php echo url('/collections/browse/');?>" class="button button-primary">Collections</a> ~~>
+	  			<a href="<?php echo url('/contribute/');?>" class="button button-primary">Contribute</a>
+ -->
+				<a href="<?php echo url('/team/');?>" class="button button-primary">Team</a>
+				<a href="<?php echo url('/news/');?>" class="button button-primary">News</a>
+	  			
+<!-- 	  			<?php if(plugin_is_active('TourBuilder')): ?> -->
+	  				<!-- <a href="<?php echo url('/tours/browse/');?>" class="button button-primary"><?php echo mh_tour_label('plural');?></a> -->
+<!-- 	  				<a href="https://philippinestudies.uk/mapping/tours" class="button button-primary"><?php echo mh_tour_label('plural');?></a> -->
+<!-- 	  			<?php endif;?> -->
+	  			<!-- <a href="<?php echo url('/collections/browse/');?>" class="button button-primary">Collections</a> -->
+	  			<a href="<?php echo url('/contribute/');?>" class="button button-primary">Contribute</a>
+	  			<a href="<?php echo url('/contact/');?>" class="button button-primary">Contact</a>
+	  			
+	  			<!-- <a href="<?php echo url('/items/browse/');?>" class="button button-primary"><?php echo mh_item_label('plural');?></a> -->
+			</div>
+			<?php endif;?>
+			
 		</div>
 	</nav>
 </div>
